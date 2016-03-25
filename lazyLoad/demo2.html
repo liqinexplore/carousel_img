@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<img class="lazy" data-original="image/3.jpg" width="765" height="574" alt="BMW M1 Hood">
+<img class="lazy" data-original="image/4.jpg" width="765" height="574" alt="BMW M1 Side">
+<img class="lazy" data-original="image/6.jpg" width="765" height="574" alt="Viper 1">
+<img class="lazy" data-original="image/7.jpg" width="765" height="574" alt="Viper Corner">
+<img class="lazy" data-original="image/9.jpg" width="765" height="574" alt="BMW M3 GT">
+<img class="lazy" data-original="image/10.jpg" width="765" height="574" alt="Corvette Pitstop">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lazyload.js"></script>
+<script>
+    $(function(){
+        $("img.lazy").lazyload({effect: "fadeIn"});
+    });
+</script>
+</body>
+</html>
